@@ -100,3 +100,28 @@ header .nav-link ul li a:hover{
     border: none;
     border-radius: 20px;
 }
+
+
+
+.about .about-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    margin-inline: 20rem;
+}
+.about .about-group img{
+    width: 20rem;
+    height: 24rem;
+}
+
+.about .about-group p{
+    width: 25rem;
+    /* margin-top:5px; */
+    margin-left: 5rem;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
