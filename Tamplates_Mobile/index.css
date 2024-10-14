@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-inline: 50px;
+    
 }
 
 header .nav-link ul{
@@ -17,15 +18,22 @@ header .nav-link ul{
     display: flex;
 }
 header .nav-link ul li{
-    padding: 10px;
+    padding: 25px;
     list-style: none;
+    font-size: 20px;
 }
+
+
 
 header .nav-link ul li a{
     text-decoration: none;
     font-weight: bold;
     color: black;
     
+}
+
+header .nav-link ul li a:hover{
+    color: #bdbcbc;
 }
 
 .icon-header{
@@ -55,7 +63,8 @@ header .nav-link ul li a{
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 10rem;
+    padding-inline: 12rem;
+    margin-top: 3rem;
 }
 
 .titre{
@@ -71,10 +80,10 @@ header .nav-link ul li a{
     display: inline-block;
     text-align: center;
     padding: 10px;
-    margin: 4rem 2rem 2rem 2rem;
+    margin: 0.2rem 2rem 2rem 2rem;
 }
 .store .card img{
-    width: 300px;
+    width: 250px;
 }
 
 
