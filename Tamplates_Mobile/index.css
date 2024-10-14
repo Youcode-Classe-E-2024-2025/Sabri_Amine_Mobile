@@ -44,7 +44,8 @@ header .nav-link ul li a:hover{
     position: absolute;
     right: 25px;
     top: -4px;
-    background-color: red;
+    background-color: #000000;
+    color: #fff;
     border-radius: 100%;
 }
 .icon-header i{
@@ -63,7 +64,7 @@ header .nav-link ul li a:hover{
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 12rem;
+    padding-inline: 15rem;
     margin-top: 3rem;
 }
 
@@ -84,6 +85,9 @@ header .nav-link ul li a:hover{
 }
 .store .card img{
     width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
 }
 
 
