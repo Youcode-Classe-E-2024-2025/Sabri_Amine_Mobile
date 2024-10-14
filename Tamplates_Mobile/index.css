@@ -1,0 +1,44 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+}
+
+header{
+    border: 2px solid rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+header .nav-link ul{
+    padding: 10px;
+    display: flex;
+}
+header .nav-link ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+header .nav-link ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.icon-header{
+    position: relative;
+}
+
+.icon-header p{
+    position: absolute;
+    right: 25px;
+    top: -4px;
+    background-color: red;
+    border-radius: 100%;
+}
+.icon-header i{
+    font-weight: bold;
+    font-size: 25px ;
+}
