@@ -184,7 +184,51 @@ header .nav-link ul li a:hover{
 
 
 footer{
+    
+}
+
+.footer-global{
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    border:2px solid black;
+    padding: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+footer h3{
+    font-weight: bold;
+    font-size: 23px;
+}
+footer img{
+    margin-top: -25px;
+}
+
+footer .link-footer ul{
+    list-style: none;
+}
+
+footer .link-footer ul li{
+    padding-top: 5px;
+}
+footer .link-footer ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer .social-media i{
+    font-size: 25px;
+    padding:10px;
+}
+
+footer .social-media .icon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 13rem;
+}
+
+footer .social-media .icon img{
+    margin: 2px 0 0 5PX;
 }
