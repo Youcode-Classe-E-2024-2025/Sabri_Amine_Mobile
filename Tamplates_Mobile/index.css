@@ -181,3 +181,10 @@ header .nav-link ul li a:hover{
     border: none;
     border-radius: 5px;
 }
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
