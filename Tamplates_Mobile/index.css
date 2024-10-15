@@ -102,13 +102,18 @@ header .nav-link ul li a:hover{
 }
 
 
-
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .about .about-group{
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-    /* border: 2px solid red; */
-    margin-inline: 20rem;
+    align-items: center;
+    justify-content: center;
+    
 }
 .about .about-group img{
     width: 20rem;
@@ -127,12 +132,18 @@ header .nav-link ul li a:hover{
 }
 
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 19rem;
+
+}
 .contact-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 35px;
-    margin-inline: 17rem;
+    
 }
 
 .contact-group form{
