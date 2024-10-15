@@ -40,13 +40,19 @@ header .nav-link ul li a:hover{
     position: relative;
 }
 
-.icon-header p{
+.icon-header .icon-count{
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 25px;
-    top: -4px;
+    
     background-color: #000000;
     color: #fff;
-    border-radius: 100%;
+    border-radius:11px;
+    font-size: 14px;
 }
 .icon-header i{
     font-weight: bold;
@@ -183,16 +189,14 @@ header .nav-link ul li a:hover{
 }
 
 
-footer{
-    
-}
+
 
 .footer-global{
     display: flex;
     justify-content: space-between;
     border:2px solid black;
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 
