@@ -324,6 +324,10 @@ i{
         transition: all .5s;
 
     }
+
+    .publicite img{
+        height: 15rem;
+    }
     .icon-header .icon-count{
         top:28px;
         right:60px;
